@@ -59,7 +59,7 @@ nav li {
 
 
 /* boduy up is start here */
-.body-up{
+.body-up {
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -92,7 +92,8 @@ nav li {
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
- 
+  margin-bottom: 100px;
+
 }
 
 .body-middle-text div {
@@ -100,7 +101,10 @@ nav li {
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
   margin-top: 110px;
-  margin-right: 50px;
+  margin-right: 40px;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 .body-middle-img-btn {
@@ -113,4 +117,41 @@ nav li {
 
 .body-middle-img h1 {
   margin: 0px;
+}
+
+
+/* body bottom is start here */
+.body-bottom-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.body-bottom-text {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.body-bottom-img {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.body-bottom-img div h3 {
+  color: #424242;
+  margin: 0;
+}
+
+.body-bottom-img div p {
+  color: #727272;
+  margin: 0;
+}
+
+.body-bottom-img div {
+  text-align: center;
+  border-style: groove;
+  border-width: 1px;
+  border-color: #FF900E;
+  padding: 5px;
 }

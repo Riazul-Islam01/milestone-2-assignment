@@ -256,3 +256,68 @@ nav li {
   padding-top: 20px;
   border-radius: 8px;
 }
+
+
+/* responsive website is running here */
+
+@media screen and (max-width:577px) {
+
+  .header,
+  .nav-bar,
+  .nav-list,
+  .body-middle-header-container,
+  .body-up-container {
+    flex-direction: column;
+  }
+
+  .header-img {
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+  }
+
+  .body-up-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .body-middle-container {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .body-middle-img img {
+    height: 400px;
+    width: 300px;
+  }
+
+  .body-bottom-container {
+    flex-direction: column;
+  }
+
+  .body-bottom-img {
+    flex-direction: column;
+    width: 150px;
+  }
+
+  .body-last-container {
+    flex-direction: column;
+  }
+
+  .body-last-img {
+    flex-direction: column;
+    padding-top: 150px;
+  }
+
+  .new-container {
+    flex-direction: column;
+  }
+
+  .footer-item {
+    flex-direction: column;
+  }
+
+}
+
+/* my project end here */
+
+/* thank you programing-hero */

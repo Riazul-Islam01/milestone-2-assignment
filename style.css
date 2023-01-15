@@ -38,7 +38,8 @@ nav li {
 }
 
 .header-btn,
-.body-up-btn {
+.body-up-btn,
+.body-middle-img-btn {
   color: whitesmoke;
   border-radius: 5px;
   font-size: 15px;
@@ -46,6 +47,7 @@ nav li {
   padding: 10px 20px;
   background-color: #FF900E;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 
 .header-img {
@@ -85,36 +87,38 @@ nav li {
   margin-left: 50px;
 }
 
-.body-up-text .text-header{
-  color:#727272;
+.body-up-text .text-header {
+  color: #727272;
 }
-.body-up-text .text-header-color{
+
+.body-up-text .text-header-color {
   color: #FF900E;
 }
 
 /* body-middle-container */
-.body-middle-header-container{
+.body-middle-header-container {
   margin-top: 100px;
   position: relative;
-  top: 250px;
+  top: 150px;
 }
 
-.body-middle-header::before{
+.body-middle-header::before {
   content: "";
   height: 50px;
   width: 5px;
   background: #FF900E;
-  float:left;
+  float: left;
   margin-right: 10px;
 }
+
 .body-middle-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
+
   margin-bottom: 100px;
-  
+
 
 }
 
@@ -129,8 +133,8 @@ nav li {
   padding-bottom: 5px;
 }
 
-.body-middle-img{
-padding-left: 100px;
+.body-middle-img {
+  padding-left: 100px;
 }
 
 .body-middle-img-btn {
@@ -139,7 +143,6 @@ padding-left: 100px;
   border-radius: 8px;
   font-size: 35px;
   position: relative;
-
   bottom: 60px;
   right: 100px;
 
@@ -168,6 +171,10 @@ padding-left: 100px;
   margin-right: 150px;
 }
 
+.body-bottom-img div:hover {
+  background-color: lightblue;
+}
+
 .body-bottom-img div h3 {
   color: #424242;
   margin: 0;
@@ -189,7 +196,6 @@ padding-left: 100px;
 
 
 /* body-last is start here */
-
 .body-last-container {
   margin-left: 100px;
   margin-right: 100px;
@@ -209,9 +215,38 @@ padding-left: 100px;
   margin-top: 50px;
 }
 
+.new-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  border: solid firebrick;
+  border-radius: 10px;
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.new-container img {
+  height: 500px;
+  width: 500px;
+}
+
+.new-container-header {
+  color: limegreen;
+}
+
+.new-container-header span {
+  color: #FF900E;
+}
+
+.new-container-text {
+  padding-right: 20px;
+}
+
 
 /* last-item is starting here */
-.last-item {
+.footer-item {
   text-align: center;
   margin-top: 100px;
   background: #FFF4E7;
